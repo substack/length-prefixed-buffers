@@ -1,4 +1,8 @@
 {
+  "name": "length-prefixed-buffers",
+  "version": "1.0.0",
+  "description": "encode and decode an array of buffers as a single varint length-prefixed binary blob",
+  "main": "index.js",
   "dependencies": {
     "varint": "^6.0.0"
   },
@@ -7,5 +11,13 @@
   },
   "scripts": {
     "test": "tape test/*.js"
-  }
+  },
+  "keywords": [
+    "buffer",
+    "uint8array",
+    "array",
+    "varint",
+    "length-prefixed"
+  ],
+  "license": "bsd"
 }

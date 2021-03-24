@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "varint": "^6.0.0"
+  },
+  "devDependencies": {
+    "tape": "^5.2.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  }
+}
